@@ -7,56 +7,71 @@ import { Animal } from './animal.model';
   <div *ngIf="childSelectedAnimal">
        <h1>Edit {{childSelectedAnimal.name}}</h1>
        <div class="well">
-         <table class="table">
-           <thead>
-             <tr>
-               <th>Species</th>
-               <th>Name</th>
-               <th>Age</th>
-               <th>Diet</th>
-               <th>Location</th>
-               <th>Caretakers</th>
-               <th>Sex</th>
-               <th>Likes</th>
-               <th>Dislikes</th>
-             </tr>
-           </thead>
-           <tbody>
-             <tr>
-               <th>
-                 <input [(ngModel)]="childSelectedAnimal.species">
-               </th>
-               <th>
-                 <input [(ngModel)]="childSelectedAnimal.name">
-               </th>
-               <th>
-                 <input [(ngModel)]="childSelectedAnimal.age">
-               </th>
-               <th>
-                 <input [(ngModel)]="childSelectedAnimal.diet">
-               </th>
-               <th>
-                 <input [(ngModel)]="childSelectedAnimal.location">
-               </th>
-               <th>
-                 <input [(ngModel)]="childSelectedAnimal.caretakers">
-               </th>
-               <th>
-                 <input [(ngModel)]="childSelectedAnimal.sex">
-               </th>
-               <th>
-                 <input [(ngModel)]="childSelectedAnimal.likes">
-               </th>
-               <th>
-                 <input [(ngModel)]="childSelectedAnimal.dislikes">
-               </th>
-             </tr>
-           </tbody>
-         </table>
-         <button class="btn btn-default" (click)="doneButtonClicked()">Done</button>
+       <div class="form-group row">
+         <label class="col-md-2 col-form-label">Species</label>
+         <div class="col-md-10">
+          <input class="form-control" [(ngModel)]="childSelectedAnimal.species">
+         </div>
        </div>
-     </div>
 
+       <div class="form-group row">
+         <label class="col-md-2 col-form-label">Name</label>
+         <div class="col-md-10">
+           <input class="form-control" [(ngModel)]="childSelectedAnimal.name">
+         </div>
+       </div>
+
+       <div class="form-group row">
+         <label class="col-md-2 col-form-label">Age</label>
+         <div class="col-md-10">
+           <input class="form-control" [(ngModel)]="childSelectedAnimal.age">
+         </div>
+       </div>
+
+       <div class="form-group row">
+         <label class="col-md-2 col-form-label">Diet</label>
+         <div class="col-md-10">
+           <input class="form-control" [(ngModel)]="childSelectedAnimal.diet">
+         </div>
+       </div>
+
+       <div class="form-group row">
+         <label class="col-md-2 col-form-label">Location</label>
+         <div class="col-md-10">
+           <input class="form-control" [(ngModel)]="childSelectedAnimal.location">
+         </div>
+       </div>
+
+       <div class="form-group row">
+         <label class="col-md-2 col-form-label">Caretakers</label>
+         <div class="col-md-10">
+           <input class="form-control" [(ngModel)]="childSelectedAnimal.caretakers">
+         </div>
+       </div>
+
+       <div class="form-group row">
+         <label class="col-md-2 col-form-label">Sex</label>
+         <div class="col-md-10">
+           <input class="form-control" [(ngModel)]="childSelectedAnimal.sex">
+         </div>
+       </div>
+
+       <div class="form-group row">
+         <label class="col-md-2 col-form-label">Likes</label>
+         <div class="col-md-10">
+           <input class="form-control" [(ngModel)]="childSelectedAnimal.likes">
+         </div>
+       </div>
+
+       <div class="form-group row">
+         <label class="col-md-2 col-form-label">Dislikes</label>
+         <div class="col-md-10">
+           <input class="form-control" [(ngModel)]="childSelectedAnimal.dislikes">
+         </div>
+       </div>
+       <button class="btn btn-default btn-lg" (click)="doneButtonClicked()">Done</button>
+     </div>
+   </div>
   `
 })
 

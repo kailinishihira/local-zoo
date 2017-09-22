@@ -9,7 +9,7 @@ import { Animal } from './animal.model';
       <select (change)="onChange($event.target.value)">
         <option value="allAnimals" selected="selected">All Animals</option>
         <option value="youngAnimals">Young Animals</option>
-        <option value="matureAnimas">Mature Animals</option>
+        <option value="matureAnimals">Mature Animals</option>
       </select>
     </div>
 
