@@ -4,13 +4,23 @@ import { Animal } from './animal.model';
 @Component({
   selector: 'animal-list',
   template: `
-    <div id="filter">
-      <label>Filter by: </label>
-      <select (change)="onChange($event.target.value)">
-        <option value="allAnimals" selected="selected">All Animals</option>
-        <option value="youngAnimals">Young Animals</option>
-        <option value="matureAnimals">Mature Animals</option>
-      </select>
+
+    <div class="row">
+      <div class="col-md-3">
+        <div id="filter">
+          <label>Filter by: </label>
+          <select (change)="onChange($event.target.value)">
+            <option value="allAnimals" selected="selected">All Animals</option>
+            <option value="youngAnimals">Young Animals</option>
+            <option value="matureAnimals">Mature Animals</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <h1>Animal List</h1>
+      </div>
+      <div class="col-md-3">
+      </div>
     </div>
 
     <table class="table" id="main-table">

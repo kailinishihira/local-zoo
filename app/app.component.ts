@@ -25,7 +25,7 @@ export class AppComponent {
     new Animal('Arctic Fox','Moon', 2, 'Carnivore', 'Northern Trail', 5, 'Female', 'Cool shade', 'Loud noises'),
     new Animal('Ocelot', 'Prince', 1, 'Carnivore', 'Tropical Rain Forest Building', 6, 'Male', 'Laying in the sunshine', 'Toys that are not rope-based'),
     new Animal('Northwest Black Tailed Deer', 'Tinkerbell', 8, 'Herbivore', 'Northern Trail', 2, 'Female', 'Delicate roots and leaves', 'Loud Noises'),
-    new Animal('Red Panda', 'Momo', 1.5, 'Herbivore', 'Northern Trail' 5, 'Female', 'Sleeping on tree branches', 'Too much sunshine')
+    new Animal('Red Panda', 'Momo', 1.5, 'Herbivore', 'Northern Trail', 5, 'Female', 'Sleeping on tree branches', 'Too much sunshine')
   ];
 
   editAnimal(clickedAnimal) {

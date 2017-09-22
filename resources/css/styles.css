@@ -2,13 +2,16 @@ body {
   background-image: url('../img/banner.png');
   background-position: bottom;
   background-repeat: no-repeat;
-  margin: 2% 5% 2% 5%;
+  margin: 1% 10% 1% 10%;
   color: #210808;
 }
 
 h1 {
   text-align: center;
-  letter-spacing: 4px;
+  letter-spacing: 5px;
+  font-size: 50px;
+  margin-bottom: 2%;
+  margin-top: 2%;
 }
 
 #title {
@@ -68,4 +71,8 @@ select {
 .btn:hover {
   background-color: #fdb760;
   color: #ffffff;
+}
+
+form, #edit-form {
+  margin: 2% 10% 2% 10%;
 }
