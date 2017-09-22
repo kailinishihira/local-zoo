@@ -14,14 +14,6 @@ _A web app for the local zoo to track an individual animal's species, name, age,
 * I want options to view all animals, only young animals (less than 2 years of age), or only mature animals (2 years of age and older).
 * I want to click an animal to edit its name, age or caretakers.
 
-|| Behavior  | Input  | Output  |
-|---|---|---|---|
-||  |  |  |
-
-
-
-
-
 ## Setup/Installation Requirements
 
 * _Install [Node.js](https://nodejs.org/en/download/)_
