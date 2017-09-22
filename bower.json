@@ -1,0 +1,20 @@
+{
+  "name": "local-zoo",
+  "description": "- Run `npm install bower -g`",
+  "main": "gulpfile.js",
+  "authors": [
+    "Kaili Nishihira <kailinishihira@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/kailinishihira/local-zoo",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

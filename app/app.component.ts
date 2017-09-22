@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { Animal } from './animal.model';
 
 @Component ({
-  selector: 'app root',
+  selector: 'app-root',
   template: `
     <div class="container-fluid">
       <h1>{{title}}</h1>

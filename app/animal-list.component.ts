@@ -50,7 +50,7 @@ export class AnimalListComponent {
   @Input() childAnimalList: Animal[];
   @Output() clickSenderEdit = new EventEmitter();
 
-  editButtonHasBeenClicked(kegToEdit: Animal) {
+  editButtonHasBeenClicked(animalToEdit: Animal) {
   this.clickSenderEdit.emit(animalToEdit);
   }
 
